@@ -16,6 +16,6 @@ def create_app(app_name='GEOCENS_API'):
 
     from geocens_api.api.platform_api import platform_api
 
-    app.register_blueprint(platform_api, url_prefix=None)
+    app.register_blueprint(platform_api, url_prefix="/platform")
 
     return app
