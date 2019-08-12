@@ -1,0 +1,10 @@
+server {
+    listen 80;
+    server_name geocens-support.sensorup.com;
+    root /home/ubuntu/geocens-support;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/home/ubuntu/geocens-support/geocens_api.sock;
+    }
+}

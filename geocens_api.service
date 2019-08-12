@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI Python container server  
+After=network.target
+
+[Service]
+User=ubuntu  
+Group=www-data  
+WorkingDirectory=/home/ubuntu/geocens-support  
+Environment="PATH=/home/ubuntu/geocens-support/venv/bin"  
+ExecStart=/home/ubuntu/geocens-support/venv/bin/uwsgi --ini geocens_api.ini
+
+[Install]
+WantedBy=multi-user.target 
