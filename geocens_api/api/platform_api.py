@@ -1,5 +1,6 @@
 import json
 from flask import Blueprint, jsonify, request, redirect, Response
+from json2html import *
 from geocens_api.utils import *
 #=== Platform ===#
 platform_api = Blueprint('platform_api', __name__)
@@ -19,7 +20,7 @@ def info():
 
     if request_wants_json():
         return Response(response=json.dumps(response),status=200,mimetype='application/json')
-    return Response(response=json.dumps(response),status=200,mimetype='text/html')
+    return Response(response=json2html.convert(json=json.dumps(response)),status=200,mimetype='text/html')
 
 @platform_api.route('/stats/')
 def stats():
@@ -35,7 +36,7 @@ def stats():
 
     if request_wants_json():
         return Response(response=json.dumps(response),status=200,mimetype='application/json')
-    return Response(response=json.dumps(response),status=200,mimetype='text/html')
+    return Response(response=json2html.convert(json=json.dumps(response)),status=200,mimetype='text/html')
 
 @platform_api.route('/doc/')
 def docs():
