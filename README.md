@@ -2,7 +2,7 @@ This is a a simple REST service for GeoCENS [CANARIE Registry and Monitoring Sys
 
 `<base_url>`: `geocens-support.sensorup.com.`
 
-- Smart Air (GeoCENS): `<base_url>/`
+- Smart Air (GeoCENS): `<base_url>/platform`
 
 ### Development
 
@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 python3 appserver.py
 ```
 
-Then go to `http://localhost:5000/info/` and it should return a json response.
+Then go to `http://localhost:5000/platform/info/` and it should return a json response.
 
 ### Deployment
 
