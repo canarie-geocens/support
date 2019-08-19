@@ -40,19 +40,19 @@ def stats():
 
 @platform_api.route('/doc/')
 def docs():
-    return redirect('https://canarie-geocens.github.io/')
+    return redirect('https://smart-air-geocens.github.io/')
 
 @platform_api.route('/releasenotes/')
 def releasenotes():
-    return redirect('https://canarie-geocens.github.io/#releasenotes')
+    return redirect('https://smart-air-geocens.github.io/#releasenotes')
 
 @platform_api.route('/support/')
 def support():
-    return redirect('https://canarie-geocens.github.io/#support')
+    return redirect('https://smart-air-geocens.github.io/#support')
 
 @platform_api.route('/source/')
 def source():
-    return redirect('https://github.com/canarie-geocens/')
+    return redirect('https://github.com/smart-air-geocens/')
 
 @platform_api.route('/tryme/')
 def tryme():
@@ -60,12 +60,12 @@ def tryme():
 
 @platform_api.route('/licence/')
 def licence():
-    return redirect('https://canarie-geocens.github.io/#licence')
+    return redirect('https://smart-air-geocens.github.io/#licence')
 
 @platform_api.route('/provenance/')
 def provenance():
-    return redirect('https://canarie-geocens.github.io/#provenance')
+    return redirect('https://smart-air-geocens.github.io/#provenance')
 
 @platform_api.route('/factsheet/')
 def factsheet():
-    return redirect('https://canarie-geocens.github.io/#factsheet')
+    return redirect('https://smartcities.sensorup.com/faq')

@@ -128,7 +128,7 @@ URI - <base>/doc
 
 `geocens-support.sensorup.com/doc/`
 
-HTTP redirect to <https://canarie-geocens.github.io>
+HTTP redirect to <https://smart-air-geocens.github.io>
 
 The HTTP redirect may be returned in response to this request. This URI must also support HTTP HEAD requests. The content type for the response should specify “text/html”.
 
@@ -140,7 +140,7 @@ URI - <base>/releasenotes
 
 `geocens-support.sensorup.com/releasenotes/`
 
-HTTP redirect to <https://canarie-geocens.github.io#releasenotes>
+HTTP redirect to <https://smart-air-geocens.github.io#releasenotes>
 content type: "text/html"
 
 5.Platform Support
@@ -161,7 +161,7 @@ URI - <base>/source
 
 `geocens-support.sensorup.com/source/`
 
-return status code 204 (No Content)
+HTTP redirect to <https://github.com/smart-air-geocens/>
 
 7.Platform Try Me
 
@@ -181,7 +181,7 @@ URI - <base>/licence
 
 `geocens-support.sensorup.com/licence/`
 
-HTTP redirect to <https://canarie-geocens.github.io#licence>
+HTTP redirect to <https://smart-air-geocens.github.io#licence>
 
 content type: "text/html"
 
@@ -193,7 +193,7 @@ URI - <base>/provenance
 
 `geocens-support.sensorup.com/provenance/`
 
-HTTP redirect to <https://canarie-geocens.github.io#provenance>
+HTTP redirect to <https://smart-air-geocens.github.io#provenance>
 
 content type: "text/html"
 
@@ -205,5 +205,4 @@ URI - <base>/factsheet
 
 `geocens-support.sensorup.com/factsheet/`
 
-- HTTP redirect to <https://canarie-geocens.github.io#factsheet>
-- content type: "text/html"
+HTTP redirect to <https://smartcities.sensorup.com/faq/>
