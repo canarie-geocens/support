@@ -2,7 +2,7 @@ This is a a simple REST service for GeoCENS [CANARIE Registry and Monitoring Sys
 
 `<base_url>`: `geocens-support.sensorup.com.`
 
-- Smart Air (GeoCENS): `<base_url>/platform`
+- Smart Air (GeoCENS): `<base_url>`
 
 ### Development
 
@@ -69,7 +69,7 @@ URI - `<base>/info/`
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/info/`
+`geocens-support.sensorup.com/platform/info/`
 
 **Example**
 
@@ -98,11 +98,11 @@ URI - `<base>/info/`
 
 2.Platform Statistics
 
-URI - <base>/stats
+URI - <base>/platform/stats
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/stats/`
+`geocens-support.sensorup.com/platform/stats/`
 
 **Example**
 
@@ -122,11 +122,11 @@ URI - <base>/stats
 
 3.Platform Documentation
 
-URI - <base>/doc
+URI - <base>/platform/doc
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/doc/`
+`geocens-support.sensorup.com/platform/doc/`
 
 HTTP redirect to <https://smart-air-geocens.github.io>
 
@@ -134,38 +134,38 @@ The HTTP redirect may be returned in response to this request. This URI must als
 
 4.Platform Release Notes
 
-URI - <base>/releasenotes
+URI - <base>/platform/releasenotes
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/releasenotes/`
+`geocens-support.sensorup.com/platform/releasenotes/`
 
 HTTP redirect to <https://smart-air-geocens.github.io#releasenotes>
 content type: "text/html"
 
 5.Platform Support
 
-URI - <base>/support
+URI - <base>/platform/support
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/support/`
+`geocens-support.sensorup.com/platform/support/`
 
 Support is available from the SensorUp. Please feel free to contact us on info@sensorup.com.
 
 6.Platform Source Code
 
-URI - <base>/source
+URI - <base>/platform/source
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/source/`
+`geocens-support.sensorup.com/platform/source/`
 
 HTTP redirect to <https://github.com/smart-air-geocens/>
 
 7.Platform Try Me
 
-URI - <base>/tryme
+URI - <base>/platform/tryme
 
 **HTTP GET**
 
@@ -175,11 +175,11 @@ HTTP redirect to <http://geocens.sensorup.com/>
 
 8.Platform Licence
 
-URI - <base>/licence
+URI - <base>/platform/licence
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/licence/`
+`geocens-support.sensorup.com/platform/licence/`
 
 HTTP redirect to <https://smart-air-geocens.github.io#licence>
 
@@ -187,11 +187,11 @@ content type: "text/html"
 
 9.Platform Provenance
 
-URI - <base>/provenance
+URI - <base>/platform/provenance
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/provenance/`
+`geocens-support.sensorup.com/platform/provenance/`
 
 HTTP redirect to <https://smart-air-geocens.github.io#provenance>
 
@@ -199,10 +199,10 @@ content type: "text/html"
 
 10.Fact Sheet
 
-URI - <base>/factsheet
+URI - <base>/platform/factsheet
 
 **HTTP GET**
 
-`geocens-support.sensorup.com/factsheet/`
+`geocens-support.sensorup.com/platform/factsheet/`
 
 HTTP redirect to <https://smartcities.sensorup.com/faq/>
