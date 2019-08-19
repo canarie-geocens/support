@@ -65,7 +65,7 @@ sudo systemctl restart nginx
 
 1.Platform Info
 
-URI - `<base>/info/`
+URI - `<base>/platform/info/`
 
 **HTTP GET**
 
