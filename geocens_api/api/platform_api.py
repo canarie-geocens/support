@@ -68,4 +68,4 @@ def provenance():
 
 @platform_api.route('/factsheet/')
 def factsheet():
-    return redirect('https://smartcities.sensorup.com/faq')
+    return redirect('https://smart-air-geocens.github.io/#factsheet')
